@@ -40,4 +40,4 @@ The first time I saw this process, it was in the following <a href="https://gith
 </a>
 
 ## License
-This code is under the <a href="https://github.com/ScienceAsylum/Heat-Equation/blob/main/LICENSE">GNU General Public License v3.0</a>.
+This code is under the <a href="https://github.com/ScienceAsylum/Fourier-Drawing/blob/main/LICENSE">GNU General Public License v3.0</a>.
