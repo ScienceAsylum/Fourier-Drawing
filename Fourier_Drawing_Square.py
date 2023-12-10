@@ -10,8 +10,8 @@ import cmath as cm
 #---------------------- Scene Information -----------------------
 scene = canvas()
 scene.range = 400
-scene.height = 900
-scene.width = 1900
+scene.height = 1080
+scene.width = 1920
 scene.fov = pi/6
 scene.userspin = 0
 
