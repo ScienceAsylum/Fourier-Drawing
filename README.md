@@ -18,14 +18,14 @@ Each term in the Fourier series (for each shape) is represented as an arrow rota
 ## How to draw your own shape
 If you don't have a mathematical function that describes the shape, then you need the location of the points on the shape in 2D space. Include those points as a list in a text document <a href="https://github.com/ScienceAsylum/Fourier-Drawing/blob/main/LetterN.txt">like this</a> and have the program call that text document. I found this <a href="https://spotify.github.io/coordinator/">website</a> helpful when converting shape images into point lists. Then just look for the following line in the code:
 
-```
+```ruby
 PointFile = open("PointListFileName.txt", "r")
 ```
 
 ## Issues
 The code works fine if you only keep 100-200 terms. If you get up near 1000, the program really drags. You have to let your computer render the frames using a capture command in the animation loop:
 
-```
+```ruby
 scene.capture("FileName.png")
 ```
 
